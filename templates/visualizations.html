@@ -34,6 +34,13 @@
         <!-- create a container for the plots -->
         <div class="container content-wrapper">
             <div class="row">
+                <!-- create a div for the first plot -->
+                <div class="col-md-12">
+                    <canvas id="scatterChart" width="1000" height="400"></canvas>
+                </div>
+            </div>
+            
+            <div class="row">
                 <div class="col-md-12">
                     <!-- create a div for the dropdown menu -->
                     <div class="well">
@@ -43,14 +50,14 @@
                 </div>
             </div>
             <div class="row">
-                <!-- create a div for the first plot -->
+                <!-- create a div for the second plot -->
                 <div class="col-md-6">
                     <div id="plot1">
                         <canvas id="barChart" width="400" height="400"></canvas>
                     </div>
                 </div>
             
-                <!-- create a div for the second plot -->
+                <!-- create a div for the third plot -->
                 <div class="col-md-6">
                     <div id="plot2">
                         <canvas id="pieChart" width="400" height="400"></canvas>
@@ -95,6 +102,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="https://d3js.org/d3.v5.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
         <script src="{{ url_for('static', filename='js/plots.js' )}}"></script>    
     </footer>
 
