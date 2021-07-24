@@ -1,4 +1,5 @@
-var city_url = "http://127.0.0.1:5000/api/citydata"
+var city_url = "/api/citydata";
+//var state_url = 
 
 d3.json(city_url).then(function(data) {
    console.log(data);

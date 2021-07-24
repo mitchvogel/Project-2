@@ -34,6 +34,14 @@ def alchemyencoder(obj):
 def landing_page():
     return render_template("index.html")
 
+@app.route("/visualizations")
+def data_page():
+    return render_template("visualizations.html")
+
+@app.route("/map")
+def map_page():
+    return render_template("map.html")
+
 @app.route("/api/citydata")
 def city():
 
