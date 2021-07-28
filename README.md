@@ -1,7 +1,7 @@
 # Project-2
 
 ## Team
-John Gotz - @gotzx015
+John Gotz - [@gotzx015](https://github.com/gotzx015)
 Jennie Cinelli - @jenniecinelli
 Mitch Vogel - @mitchvogel
 Peter Anderson - @PGAnderson7
