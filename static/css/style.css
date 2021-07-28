@@ -24,7 +24,7 @@ body{
 .content-wrapper {
   padding-bottom: 60px;
 }
-/* map area height adjustment */
+/* map css */
 #map {
   position: absolute;
   border-top: 1px solid #444;
@@ -32,6 +32,13 @@ body{
   right: 0;
   bottom: 30px;
   left: 0;
+}
+
+.legend {
+  line-height: 18px;
+  color:grey;
+  background-color:white;
+  padding:3px
 }
 
 /* header styles */
@@ -92,22 +99,5 @@ i {
     height: 36px;
     font-size: 65%;
   }
-}
-
-/* map css */
-#map {
-  position: absolute;
-  border-top: 1px solid #444;
-  top: 95px;
-  right: 0;
-  bottom: 30px;
-  left: 0;
-}
-
-.legend {
-  line-height: 18px;
-  color:grey;
-  background-color:white;
-  padding:3px
 }
 
