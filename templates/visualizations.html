@@ -24,7 +24,7 @@
                         <a class="nav-link" href ="/map">HOUSING PRICE MAP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/plots">VISUALIZATIONS</a>
+                        <a class="nav-link" href="/visualizations">VISUALIZATIONS</a>
                     </li>
                 </ul>
             </div>
@@ -45,22 +45,15 @@
                     <!-- create a div for the dropdown menu -->
                     <div class="well">
                         <h5>State</h5>
-                        <select id="selDataset" onchange="stateChange(this.value)"></select>
+                        <select id="selDataset"></select>
                     </div>    
                 </div>
             </div>
             <div class="row">
                 <!-- create a div for the second plot -->
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div id="plot1">
-                        <canvas id="barChart" width="400" height="400"></canvas>
-                    </div>
-                </div>
-            
-                <!-- create a div for the third plot -->
-                <div class="col-md-6">
-                    <div id="plot2">
-                        <canvas id="pieChart" width="400" height="400"></canvas>
+                        <canvas id="barChart" width="200" height="100"></canvas>
                     </div>
                 </div>
             </div>
@@ -79,18 +72,12 @@
     
             <div class="row">
                 <div class="col-md-12">
-                    <div id="plot3"></div>
+                    <canvas id="barChart_city" width="200" height="100"></canvas>
                 </div>
             </div>
     
             <hr>
-    
-            <!-- third row for the fourth plot -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="plot4"></div>
-                </div>
-            </div>    
+
         </div>
 
 
