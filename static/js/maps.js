@@ -2,6 +2,7 @@ var mapboxAccessToken = "pk.eyJ1IjoiamVubmllY2luZWxsaSIsImEiOiJja3F4d3VpMXEwdThn
 var map = L.map('map').setView([37.8, -96], 5);
 
 
+
 // add light tile layer
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + mapboxAccessToken, {
     id: 'mapbox/light-v9',
@@ -67,7 +68,7 @@ d3.json(url).then(function(data) {
             div.innerHTML += "<p>Average Median Price</p>";
             grades = [95985.32089552238, 100000, 200000, 300000, 400000, 500000, 623932.5447761194]
             labels = [];
-            grades1 = ["<96,000", "<100,000", "<200,000", "<300,000", "<400,000", "<500,000", "600,000+"]
+            grades1 = ["0-95", "95-100", "100-200", "200-300", "300-400", "400-500", "500+"]
 
         
         // loop through our density intervals and generate a label with a colored square for each interval
