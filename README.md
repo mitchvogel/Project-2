@@ -1,11 +1,11 @@
 # Project-2
 
 ## Team
-John Gotz - [@gotzx015](https://github.com/gotzx015)
-Jennie Cinelli - @jenniecinelli
-Mitch Vogel - @mitchvogel
-Peter Anderson - @PGAnderson7
-Zach Liebler - @zliebz
+John Gotz - [@gotzx015](https://github.com/gotzx015)  
+Jennie Cinelli - [@jenniecinelli](https://github.com/jenniecinelli)  
+Mitch Vogel - [@mitchvogel](https://github.com/mitchvogel)  
+Peter Anderson - [@PGAnderson7](https://github.com/PGAnderson7)  
+Zach Liebler - [@zliebz](https://github.com/zliebz)  
 
 ## Description
 The housing market represents the market for properties being purchased and sold either directly to buyers or through real estate brokers.
