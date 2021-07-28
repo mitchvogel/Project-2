@@ -19,13 +19,6 @@ The typical home value of homes in the United States is $293,349. This value is 
 
 * Are there obvious factors/correlation?
 
-
-## Data Sources:
-Zillow Housing Data: https://www.zillow.com/research/data/
-
-Leaflet: https://leafletjs.com/examples/choropleth/us-states.js
-
-
 ## Analysis:
 1. Clean and modify data using Jupyter Notebook/Pandas
 
@@ -36,4 +29,10 @@ Leaflet: https://leafletjs.com/examples/choropleth/us-states.js
 4. HTML, CSS, and Javascript
 
 5. D3, Plotly, Chart.js and Leaflet to visualize
+
+## Data Sources:
+Zillow Housing Data: https://www.zillow.com/research/data/
+
+Leaflet: https://leafletjs.com/examples/choropleth/us-states.js
+
 
