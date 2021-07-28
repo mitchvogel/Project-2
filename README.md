@@ -13,11 +13,11 @@ The housing market is subject to the same economic laws of supply and demand as 
 The typical home value of homes in the United States is $293,349. This value is seasonally adjusted and only includes the middle price tier of homes. United States home values have gone up 15.0% over the past year and Zillow predicts they will rise 13.2% in the next year.
 
 ## Questions:
-How have the household prices reacted over the past decade?
+* How have the household prices reacted over the past decade?
 
-Which cities in those states have the highest household prices?
+* Which cities in those states have the highest household prices?
 
-Are there obvious factors/correlation?
+* Are there obvious factors/correlation?
 
 
 ## Data Sources:
