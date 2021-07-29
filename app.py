@@ -17,7 +17,7 @@ db = create_engine(db_string)
 #################################################
 # Flask Setup
 #################################################
-app = Flask(__name__, template_folder='docs')
+app = Flask(__name__, template_folder='')
 
 #################################################
 # Flask Routes
