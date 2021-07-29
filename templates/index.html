@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Median Home Prices</title>
+    <!-- bootstrap and css stylesheet link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+    
+<body>
+    <!--Navbar adjustments-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">               
+            <a class="navbar-brand" href="/" >HOME</a>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">    
+                    <li class="nav-item">
+                        <a class="nav-link" href ="/map">HOUSING PRICE MAP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/visualizations">VISUALIZATIONS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- create a container -->
+    <div class="container content-wrapper">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src= "../static/images/housing_market.jpg" width="50%">
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="data">
+                    <h3 class="header">Data Sources</h3>
+                    <li><a href=" https://www.zillow.com/research/data/ ">Housing Data - Zillow Research<i class="fas fa-external-link-alt"></i></a></li>
+                </div>   
+            </div>
+        </div>
+
+        <div class="col-md-12">
+           <h3 class="header">Median Household Prices in the United States</h3>
+            <p><strong>Housing Market Definition: </strong> The housing market represents the market for properties being purchased and sold either directly to buyers or through real estate brokers.</p>
+            <br>
+            <p><strong>The major factors into household prices: </strong>Economic Change, Supply and Demand, Mortgage Interest Rates, Location, and Government Laws.</p>
+            <p>The housing market is subject to the same economic laws of supply and demand as every other industry. When there are more buyers than sellers, the supply of houses goes down and the demand goes up, making houses harder to buy and more expensive.</p>
+            <p>The typical home value of homes in the United States is $293,349. This value is seasonally adjusted and only includes the middle price tier of homes. United States home values have gone up 15.0% over the past year and Zillow predicts they will rise 13.2% in the next year.</p>
+            <br>
+            <h5>Household Prices by States</h5>
+            <p>How have the household prices reacted over the past decade?</p>
+            <p>Which cities in those states have the highest household prices?</p>
+            <p>Are there obvious factors/correlation?</p> 
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer font-small footer-dark">
+        <div class="footer-copyright text-center py-1">© Copyright Data Analytics Bootcamp 2021</div>      
+    </footer>
+
+</body>
+</html>
